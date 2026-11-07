@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThaiVibe - Connect with Thai Singles Worldwide</title>
+  <meta name="description" content="ThaiVibe is the premier dating app connecting singles across Thailand and worldwide. Find meaningful connections, chat, and date safely.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .gradient-hero {
+      background: radial-gradient(circle at 50% 10%, rgba(244, 63, 94, 0.15), transparent 50%),
+                  radial-gradient(circle at 90% 80%, rgba(249, 115, 22, 0.1), transparent 40%);
+    }
+    .thai-gradient-text {
+      background: linear-gradient(135deg, #f43f5e 0%, #fb7185 40%, #fb923c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-rose-500 selection:text-white">
+
+  <!-- Navbar -->
+  <header class="border-b border-slate-800/80 backdrop-blur sticky top-0 z-50 bg-slate-950/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2.5 font-bold text-xl tracking-tight">
+        <span class="w-9 h-9 rounded-xl bg-gradient-to-tr from-rose-600 via-rose-500 to-amber-500 flex items-center justify-center text-white shadow-lg shadow-rose-500/20">
+          🔥
+        </span>
+        <span class="thai-gradient-text font-extrabold text-2xl">ThaiVibe</span>
+      </a>
+
+      <nav class="flex items-center gap-6 text-sm font-medium text-slate-400">
+        <a href="#features" class="hover:text-white transition">Features</a>
+        <a href="/privacy.html" class="hover:text-white transition">Privacy</a>
+        <a href="/delete-account.html" class="hover:text-white transition hidden sm:inline-block">Account Deletion</a>
+        <a href="#contact" class="px-3.5 py-1.5 rounded-lg bg-slate-800 text-slate-200 hover:bg-slate-700 hover:text-white transition">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="flex-1 gradient-hero">
+    <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-20 pb-16 text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-rose-500/30 bg-rose-500/10 text-rose-300 text-xs font-semibold uppercase tracking-wider mb-6">
+        ✨ Free Gold Access Included
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight max-w-4xl mx-auto">
+        Feel the rhythm of authentic Thai connections with <span class="thai-gradient-text">ThaiVibe</span>
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+        Discover meaningful dating, friendships, and conversations with Thai singles locally and across the globe. Smooth, respectful, and safe.
+      </p>
+
+      <!-- App Store / Google Play Badges Placeholder -->
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div class="flex items-center gap-3 px-6 py-3.5 rounded-2xl bg-gradient-to-r from-rose-600 to-orange-500 text-white font-semibold shadow-lg shadow-rose-500/25">
+          <span>🚀 Launching on Google Play Store</span>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-slate-500">Strictly 18+ community. Safe and moderated.</p>
+    </section>
+
+    <!-- Key Highlights -->
+    <section id="features" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 border-t border-slate-850">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center text-2xl mb-4">📍</div>
+          <h3 class="text-lg font-bold text-white mb-2">Distance-based Discovery</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Find matches nearby or in specific regions of Thailand. We approximate distance without exposing your exact GPS coordinates.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-2xl mb-4">💬</div>
+          <h3 class="text-lg font-bold text-white mb-2">Instant Real-time Chat</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Fast messaging with instant push notifications, powered by secure cloud infrastructure so you never miss a spark.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mb-4">🛡️</div>
+          <h3 class="text-lg font-bold text-white mb-2">Safe & Transparent</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Verified profiles, zero toleration for inappropriate behavior, and straightforward data control including full account deletion anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Support Section -->
+    <section id="contact" class="max-w-3xl mx-auto px-4 sm:px-6 py-16 text-center">
+      <div class="p-8 rounded-3xl bg-slate-900/70 border border-slate-800">
+        <h2 class="text-2xl font-bold text-white mb-2">Need help or have questions?</h2>
+        <p class="text-slate-400 text-sm mb-6">Our support team is ready to assist you regarding your account, safety reports, or inquiries.</p>
+        <a href="mailto:support@thaivibe.app" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-rose-300 font-medium transition border border-slate-700">
+          ✉️ support@thaivibe.app
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-850 bg-slate-950 py-10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-slate-500">
+      <div>
+        <p class="font-medium text-slate-400">ThaiVibe &copy; 2026. Operated by Sebastian Holzapfel.</p>
+        <p class="mt-1">All rights reserved. Must be 18 or older to use ThaiVibe.</p>
+      </div>
+      <div class="flex flex-wrap gap-6">
+        <a href="/privacy.html" class="hover:text-slate-300 transition underline underline-offset-4">Privacy Policy</a>
+        <a href="/terms.html" class="hover:text-slate-300 transition underline underline-offset-4">Terms of Service</a>
+        <a href="/delete-account.html" class="hover:text-slate-300 transition underline underline-offset-4">Delete Account</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

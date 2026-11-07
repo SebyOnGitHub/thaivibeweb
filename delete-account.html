@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account and Data Deletion - ThaiVibe</title>
+  <meta name="description" content="Request deletion of your ThaiVibe user account and all associated personal data.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .thai-gradient-text {
+      background: linear-gradient(135deg, #f43f5e 0%, #fb7185 40%, #fb923c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-rose-500 selection:text-white">
+
+  <!-- Navbar -->
+  <header class="border-b border-slate-800/80 backdrop-blur sticky top-0 z-50 bg-slate-950/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 font-bold text-lg">
+        <span>🔥</span>
+        <span class="thai-gradient-text font-extrabold text-xl">ThaiVibe</span>
+      </a>
+      <a href="/" class="text-sm font-medium text-slate-400 hover:text-white transition">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12 flex-1">
+    <div class="mb-8 pb-6 border-b border-slate-800">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-rose-500/30 bg-rose-500/10 text-rose-300 text-xs font-semibold uppercase tracking-wider mb-3">
+        User Data Control
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-white">Account & Data Deletion</h1>
+      <p class="mt-2 text-sm text-slate-400">
+        In compliance with Google Play Data Safety policies, this page explains how to delete your ThaiVibe account and what data is removed.
+      </p>
+    </div>
+
+    <!-- Step 1: In App -->
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+        <span class="w-7 h-7 rounded-lg bg-rose-500/20 text-rose-400 text-sm flex items-center justify-center font-bold">1</span>
+        Direct Deletion inside the ThaiVibe App (Recommended)
+      </h2>
+      <p class="text-slate-300 text-sm leading-relaxed mb-3">
+        If you have the ThaiVibe app installed on your phone, you can instantly delete your entire profile without waiting for manual verification:
+      </p>
+      <ol class="list-decimal pl-6 space-y-2 text-sm text-slate-300 bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+        <li>Open the <strong>ThaiVibe</strong> app.</li>
+        <li>Tap your <strong>Profile icon</strong> at the bottom right.</li>
+        <li>Go to <strong>Settings</strong> ⚙️.</li>
+        <li>Scroll to the bottom and tap <strong>Delete Account</strong>.</li>
+        <li>Confirm the prompt. Your account and photos are wiped immediately.</li>
+      </ol>
+    </section>
+
+    <!-- Step 2: Via Web / Email Request -->
+    <section class="mb-10">
+      <h2 class="text-xl font-bold text-white mb-3 flex items-center gap-2">
+        <span class="w-7 h-7 rounded-lg bg-rose-500/20 text-rose-400 text-sm flex items-center justify-center font-bold">2</span>
+        Web Request (If app is already uninstalled)
+      </h2>
+      <p class="text-slate-300 text-sm leading-relaxed mb-4">
+        To prevent unauthorized deletion of stranger accounts, requests sent via web or email require proof of ownership. We verify this by sending a one-time confirmation code or email verification link to the registered email address before executing the deletion.
+      </p>
+
+      <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+        <h3 class="text-base font-semibold text-white mb-2">How to submit a deletion request:</h3>
+        <p class="text-sm text-slate-300 mb-4">
+          Send an email to our support team from the email address registered with your ThaiVibe account:
+        </p>
+        <div class="space-y-3">
+          <div class="text-xs text-slate-400">
+            <span class="text-slate-200 font-medium">To:</span> <span class="text-rose-400">support@thaivibe.app</span>
+          </div>
+          <div class="text-xs text-slate-400">
+            <span class="text-slate-200 font-medium">Subject:</span> ThaiVibe Account Deletion Request
+          </div>
+          <div class="text-xs text-slate-400">
+            <span class="text-slate-200 font-medium">Details needed:</span> Your registered email address and display name.
+          </div>
+          <div class="pt-2">
+            <a href="mailto:support@thaivibe.app?subject=ThaiVibe%20Account%20Deletion%20Request&body=Hello%20ThaiVibe%20Support%2C%0A%0APlease%20permanently%20delete%20my%20ThaiVibe%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Email%3A%20%0ADisplay%20Name%3A%20%0A%0AThank%20you." 
+               class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white font-medium text-sm transition shadow-lg shadow-rose-600/20">
+              ✉️ Open Pre-filled Deletion Email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data Types Deleted vs Retained -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-white">What data is deleted and what is retained?</h2>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="p-4 rounded-xl bg-rose-950/20 border border-rose-900/40">
+          <h4 class="text-rose-300 font-semibold text-sm mb-2">Permanently Deleted:</h4>
+          <ul class="list-disc pl-5 text-xs text-slate-300 space-y-1.5">
+            <li>User profile, bio, age, preferences</li>
+            <li>Profile photos & media uploads</li>
+            <li>GPS and location history data</li>
+            <li>Chat messages & conversations</li>
+            <li>Push notification tokens (FCM)</li>
+          </ul>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+          <h4 class="text-slate-300 font-semibold text-sm mb-2">Retained (Limited Time):</h4>
+          <ul class="list-disc pl-5 text-xs text-slate-400 space-y-1.5">
+            <li>Customer support emails (retained up to 90 days for dispute resolution)</li>
+            <li>Aggregated, fully anonymized metrics (not linked to your identity)</li>
+            <li>Records required by applicable legal, fraud-prevention, or regulatory statutes</li>
+          </ul>
+        </div>
+      </div>
+      
+      <p class="text-xs text-slate-500 mt-2">
+        Account deletion requests submitted by email are processed and purged within 7 business days following identity confirmation.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-850 bg-slate-950 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div>ThaiVibe &copy; 2026. Operated by Sebastian Holzapfel.</div>
+      <div class="flex gap-4">
+        <a href="/privacy.html" class="hover:text-slate-300">Privacy Policy</a>
+        <a href="/terms.html" class="hover:text-slate-300">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
