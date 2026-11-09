@@ -6,9 +6,10 @@ This repository contains the official landing page and Google Play Store complia
 
 - `index.html`: Modern, responsive landing page introducing ThaiVibe.
 - `privacy.html`: Google Play-compliant Privacy Policy covering Supabase, Firebase Cloud Messaging, GPS location handling, and data safety.
+- `child-safety.html`: Google Play Child Safety Standards Policy (CSAE / CSAM prevention and compliance).
 - `delete-account.html`: Dedicated web portal explaining account and data deletion mechanisms (Google Play Data Safety requirement).
 - `terms.html`: 18+ eligibility, UGC safety, anti-harassment, and community rules.
-- `vercel.json`: Clean URL routing (`/privacy`, `/terms`, `/delete-account`).
+- `vercel.json`: Clean URL routing (`/privacy`, `/terms`, `/child-safety`, `/delete-account`).
 
 ## Deployment on Vercel
 
@@ -21,4 +22,5 @@ This repository contains the official landing page and Google Play Store complia
 
 Once deployed to Vercel (e.g. `thaivibe.vercel.app`):
 - **Privacy Policy URL**: `https://<your-project>.vercel.app/privacy`
+- **Child Safety Standards URL**: `https://<your-project>.vercel.app/child-safety`
 - **Data Deletion URL**: `https://<your-project>.vercel.app/delete-account`
